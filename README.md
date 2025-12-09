@@ -1,117 +1,140 @@
-# 腾为相机助手 | Tenveo Camera Controller
+# 腾为相机助手（Tenveo Camera Controller）
+## Windows UVC 摄像头控制软件 | PTZ 相机管理工具 | 固件升级助手
 
-腾为相机助手是一款免费的 Windows 桌面软件，功能强大;  
-本软件完全免费使用，但不开源。如需下载,请阅读下面章节。
+**腾为相机助手（Tenveo Camera Controller）** 是一款 **适用于 Windows 的专业 UVC 摄像头控制软件**，  
+支持 **视频预览、PTZ 云台控制、图像参数调节、AI 跟踪、RTMP 推流、OTA 固件升级** 等功能。
 
-Tenveo Camera Controller is a free and powerful Windows desktop software.  
-This software is completely free to use, but not open source. For downloads, please read the sections below.
+本软件 **完全免费使用（Free to use）**，但 **不开源（Not Open Source）**，  
+适用于 **Tenveo 摄像头及标准 UVC 摄像头（Webcam）**。
 
----
-
-## 📥 下载 | Download
-
-请前往 GitHub Releases 下载最新版安装包：  
-Please go to GitHub Releases to download the latest installer:
-
-👉 https://github.com/leafseventhorn/Camera-PC-Tool/releases
+Tenveo Camera Controller is a **free and powerful Windows camera controller software**  
+for **UVC webcams and PTZ cameras**, supporting **preview, image control, AI tracking, RTMP streaming, and firmware updates**.
 
 ---
 
-## ✨ 功能特点 | Features
+## 📥 下载 | Download (Windows Installer)
 
-1. **UVC视频预览** | **UVC Video Preview**  
-   分辨率控制，帧率控制，编码格式控制，支持H265，H264，MJPG，YUY2，水平垂直翻转  
-   Resolution control, frame rate control, encoding format control, supports H265, H264, MJPG, YUY2, horizontal and vertical flip
+请前往 **GitHub Releases** 下载最新版 Windows 安装包：  
+Please download the latest Windows installer from **GitHub Releases**:
 
-2. **云台控制** | **PTZ Control**  
-   可用于控制相机的云台，变倍，预置位，聚焦，聚焦模式，聚焦场景，聚焦区域，聚焦灵敏度  
-   Control camera PTZ, zoom, presets, focus, focus mode, focus scene, focus area, focus sensitivity
+👉 **https://github.com/leafseventhorn/Camera-PC-Tool/releases**
 
-3. **图像参数控制** | **Image Parameter Control**  
-   亮度，对比度，色调，饱和度，锐度，图像风格设置  
-   Brightness, contrast, hue, saturation, sharpness, image style settings
+> ✅ 支持 Windows 10 / Windows 11  
+> ✅ 提供安装版（Installer）与版本更新说明
 
-4. **曝光控制** | **Exposure Control**  
-   背光补偿，曝光模式（比如快门优先，光圈优先，亮度优先），快门，ISO，光圈设置  
-   Backlight compensation, exposure modes (e.g., shutter priority, aperture priority, brightness priority), shutter, ISO, aperture settings
+---
 
-5. **抗电源闪烁设置** | **Anti-Flicker Settings**  
-   支持50Hz，60Hz，关闭选项  
-   Supports 50Hz, 60Hz, and off options
+## ✨ 功能特点 | Key Features
 
-6. **白平衡设置** | **White Balance Settings**  
-   红增益，蓝增益，红微调，蓝微调，自动白平衡，室内室外等白平衡模式  
-   Red gain, blue gain, red fine-tune, blue fine-tune, auto white balance, indoor/outdoor white balance modes
+### 🎥 UVC 视频预览 | UVC Video Preview
+- 分辨率控制、帧率控制、编码格式切换  
+- 支持 **H.265 / H.264 / MJPG / YUY2**  
+- 水平 / 垂直翻转  
+- Resolution, frame rate, and encoding format control with UVC support
 
-7. **跟踪设置** | **Tracking Settings**  
-   可以支持设置AI跟踪，单人跟踪多人跟踪，选择跟踪人物，跟踪起始位置设置  
-   Supports AI tracking, single/multiple person tracking, person selection, tracking start position settings
+### 🎛 PTZ 云台控制 | PTZ Camera Control
+- 云台方向控制（Pan / Tilt）
+- 光学 / 数字变倍（Zoom）
+- 预置位（Preset）
+- 自动 / 手动聚焦  
+- Supports PTZ, zoom, presets, and advanced focus control
 
-8. **隐私保护** | **Privacy Protection**  
-   支持一键设置相机休眠，保护隐私  
-   One-click camera sleep mode to protect privacy
+### 🎨 图像参数控制 | Image Settings
+- 亮度、对比度、色调、饱和度、锐度
+- 图像风格配置  
+- Brightness, contrast, hue, saturation, sharpness, image styles
 
-9. **RTMP推流** | **RTMP Streaming**  
-   支持在设置页面推流设置中把摄像头视频通过RTMP推流到第三方平台  
-   Supports streaming camera video to third-party platforms via RTMP in the streaming settings page
+### 🌞 曝光控制 | Exposure Control
+- 背光补偿
+- 曝光模式（快门优先 / 光圈优先 / 亮度优先）
+- 快门、ISO、光圈参数  
+- Professional exposure management for UVC cameras
 
-10. **设备信息与固件更新** | **Device Information & Firmware Updates**  
-   显示设备信息，并且重要的是支持OTA更新设备固件，使设备能够使用更强大更新的功能  
-   Display device information, and importantly, supports OTA firmware updates for enhanced and updated features
+### ⚡ 抗电源闪烁 | Anti-Flicker
+- 支持 **50Hz / 60Hz / 关闭**
+- Suitable for different power frequency regions
 
-**更多功能将持续加入……**  
-**More features coming soon...**
+### ⚖ 白平衡控制 | White Balance
+- 红增益 / 蓝增益
+- 自动白平衡
+- 室内 / 室外白平衡模式  
+- Manual & auto white balance support
+
+### 🤖 AI 跟踪功能 | AI Tracking
+- 单人 / 多人跟踪
+- 选择跟踪目标
+- 跟踪起始区域设置  
+- AI-based person tracking for PTZ cameras
+
+### 🔒 隐私保护 | Privacy Protection
+- 一键进入相机休眠模式
+- 有效保护用户隐私  
+- One-click camera sleep mode
+
+### 📡 RTMP 推流 | RTMP Streaming
+- 通过 RTMP 推流摄像头画面
+- 支持第三方直播 / 流媒体平台  
+- RTMP streaming support for live platforms
+
+### 🔄 设备信息 & OTA 固件升级 | Device Info & Firmware Update
+- 显示设备型号、固件版本、状态信息
+- **支持 OTA 固件在线升级**
+- Enables powerful new features via firmware updates
+
+**更多功能持续迭代中……**  
+**More features are continuously under development...**
 
 ---
 
 ## 📘 使用说明 | Documentation
 
-详细教程见：`docs/usage.md`  
-Detailed tutorial: `docs/usage.md`
+📄 使用文档：  
+`docs/usage.md`
 
-软件截图位于：`docs/images/`  
-Screenshots located at: `docs/images/`
+🖼 软件截图：  
+`docs/images/`
 
 ---
 
 ## 📝 更新日志 | Changelog
 
-请查看：`CHANGELOG.md`  
-Please refer to: `CHANGELOG.md`
+版本更新记录请查看：  
+`CHANGELOG.md`
 
 ---
 
 ## 🔒 授权协议 | License
 
-本软件提供免费使用，但不开源。  
-禁止反编译、修改、二次发布。  
-详情见 `LICENSE` 文件。
+- ✅ 本软件 **免费使用**
+- ❌ 不开源（Not Open Source）
+- ❌ 禁止反编译、修改、二次分发
 
-This software is provided free of charge, but is not open source.  
-Decompilation, modification, and redistribution are prohibited.  
-See `LICENSE` file for details.
+This software is free to use but not open source.  
+Reverse engineering, modification, and redistribution are strictly prohibited.
+
+详见：`LICENSE`
 
 ---
 
 ## ❓ 常见问题 | FAQ
 
-### Q: 软件是否开源？| Is the software open source?
-**A:** 不开源，仅发布二进制安装包。  
-**A:** Not open source, only binary installers are released.
+### Q: 软件是否开源？ | Is this software open source?
+**A:** 不开源，仅提供二进制安装包。  
+**A:** No. Only binary installers are provided.
 
-### Q: 软件是否可以免费商用？| Can the software be used commercially for free?
-**A:** 默认不允许，如需商用请联系作者。  
-**A:** Not allowed by default. Please contact the author for commercial use.
+### Q: 是否支持免费商用？ | Is free commercial use allowed?
+**A:** 默认不允许，如需商用请联系作者授权。  
+**A:** Not allowed by default. Please contact the author for commercial licensing.
 
-### Q: 是否会加入 Mac 或 Linux 版本？| Will Mac or Linux versions be added?
-**A:** 未来可能视情况加入。  
-**A:** May be considered in the future depending on circumstances.
+### Q: 是否支持 macOS 或 Linux？ | Will macOS or Linux be supported?
+**A:** 未来可能根据需求评估。  
+**A:** May be considered in the future.
 
 ---
 
-## 📮 反馈方式 | Feedback
+## 📮 反馈与支持 | Feedback & Support
 
-如需反馈错误或建议，请使用 Issues：  
-For bug reports or suggestions, please use Issues:
+欢迎提交问题、建议或 Bug 反馈：  
+Please submit issues or suggestions via GitHub Issues:
 
-https://github.com/leafseventhorn/Camera-PC-Tool/issues
+👉 **https://github.com/leafseventhorn/Camera-PC-Tool/issues**
