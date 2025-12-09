@@ -5,89 +5,84 @@
   <title>Tenveo Camera Controller | Windows UVC Camera Software</title>
 
   <!-- SEO -->
-  <meta name="description" content="Tenveo Camera Controller 是一款专业的 Windows UVC 摄像头控制软件，支持 PTZ 云台控制、图像参数调节、AI 跟踪、RTMP 推流和 OTA 固件升级。" />
-  <meta name="keywords" content="Tenveo, Camera Controller, UVC Camera, PTZ Camera, Webcam Software, Windows Camera Tool, RTMP, Firmware Update" />
+  <meta name="description" content="Tenveo Camera Controller 是一款专业 Windows 摄像头控制软件，支持 UVC、PTZ、AI 跟踪、RTMP 推流与 OTA 固件升级。" />
+  <meta name="keywords" content="Tenveo, Camera Controller, UVC, PTZ, Webcam Software, Windows Camera Tool, RTMP, Firmware Update" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Tenveo Camera Controller - Windows Camera Software" />
-  <meta property="og:description" content="Free Windows camera controller for UVC & PTZ cameras." />
-  <meta property="og:type" content="website" />
-
-  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
-  <header>
-    <h1>Tenveo Camera Controller</h1>
-    <p class="subtitle">
-      Windows UVC 摄像头控制软件 · PTZ 云台 · RTMP 推流 · OTA 固件升级
+  <!-- 顶部 -->
+  <header class="hero">
+    <div class="top-bar">
+      <h1>Tenveo Camera Controller</h1>
+      <div class="lang-switch">
+        <button onclick="setLang('zh')">中文</button>
+        <button onclick="setLang('en')">EN</button>
+      </div>
+    </div>
+
+    <p class="hero-sub" data-i18n="subtitle">
+      Windows UVC 摄像头控制软件 · PTZ 云台 · RTMP · 固件升级
     </p>
 
-    <a class="btn" href="https://github.com/leafseventhorn/Camera-PC-Tool/releases">
-      ⬇ 下载 Windows 安装包
-    </a>
+    <div class="hero-actions">
+      <a class="btn primary" href="https://github.com/leafseventhorn/Camera-PC-Tool/releases">
+        ⬇ <span data-i18n="download">下载 Windows 安装包</span>
+      </a>
+      <a class="btn ghost" href="https://github.com/leafseventhorn/Camera-PC-Tool">
+        GitHub
+      </a>
+    </div>
   </header>
 
-  <main>
-    <section>
-      <h2>📌 软件介绍</h2>
-      <p>
-        <strong>Tenveo Camera Controller（腾为相机助手）</strong> 是一款
-        面向 <strong>Windows</strong> 平台的专业摄像头管理工具，
-        适用于 <strong>Tenveo 及标准 UVC 摄像头</strong>。
+  <!-- 主体 -->
+  <main class="container">
+    <section class="card">
+      <h2 data-i18n="intro_title">软件介绍</h2>
+      <p data-i18n="intro_1">
+        Tenveo Camera Controller（腾为相机助手）是一款专业的 Windows 摄像头管理工具，
+        支持 Tenveo 及标准 UVC 摄像头。
       </p>
-      <p>
-        支持视频预览、PTZ 云台控制、图像参数调节、AI 跟踪、
-        RTMP 推流以及 OTA 固件升级。
+      <p data-i18n="intro_2">
+        软件集成视频预览、PTZ 控制、图像调节、AI 跟踪、RTMP 推流和 OTA 固件升级。
       </p>
     </section>
 
-    <section>
-      <h2>✨ 核心功能</h2>
-      <ul>
-        <li>UVC 视频预览（H.265 / H.264 / MJPG / YUY2）</li>
-        <li>PTZ 云台控制、变倍、预置位</li>
-        <li>图像参数与曝光控制</li>
-        <li>AI 单人 / 多人智能跟踪</li>
-        <li>RTMP 视频推流</li>
-        <li>设备信息管理与 OTA 固件升级</li>
-        <li>一键隐私保护（相机休眠）</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>💻 支持平台</h2>
-      <p>✅ Windows 10 / Windows 11</p>
-      <p>✅ 标准 UVC Webcam & PTZ Camera</p>
-    </section>
-
-    <section>
-      <h2>📥 下载方式</h2>
-      <p>
-        所有安装包统一在 GitHub Releases 发布，确保安全可信。
-      </p>
-      <a class="btn secondary" href="https://github.com/leafseventhorn/Camera-PC-Tool/releases">
-        前往 GitHub Releases
-      </a>
-    </section>
-
-    <section>
-      <h2>📮 反馈与支持</h2>
-      <p>
-        欢迎提交问题或建议：
-        <a href="https://github.com/leafseventhorn/Camera-PC-Tool/issues">
-          GitHub Issues
-        </a>
-      </p>
+    <section class="grid">
+      <div class="card">
+        <h3 data-i18n="f1">🎥 UVC 视频预览</h3>
+        <p data-i18n="f1d">支持 H.265 / H.264 / MJPG / YUY2</p>
+      </div>
+      <div class="card">
+        <h3 data-i18n="f2">🎛 PTZ 云台控制</h3>
+        <p data-i18n="f2d">方向、变倍、预置位、聚焦</p>
+      </div>
+      <div class="card">
+        <h3 data-i18n="f3">🎨 图像参数</h3>
+        <p data-i18n="f3d">亮度、对比度、饱和度、锐度</p>
+      </div>
+      <div class="card">
+        <h3 data-i18n="f4">🤖 AI 跟踪</h3>
+        <p data-i18n="f4d">单人 / 多人智能跟踪</p>
+      </div>
+      <div class="card">
+        <h3 data-i18n="f5">📡 RTMP 推流</h3>
+        <p data-i18n="f5d">推流到第三方直播平台</p>
+      </div>
+      <div class="card">
+        <h3 data-i18n="f6">🔄 OTA 升级</h3>
+        <p data-i18n="f6d">在线固件升级，持续增强</p>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>
-      © 2025 Tenveo Camera Controller |
-      <a href="https://github.com/leafseventhorn/Camera-PC-Tool">GitHub</a>
-    </p>
+    © 2025 Tenveo Camera Controller ·
+    <a href="https://github.com/leafseventhorn/Camera-PC-Tool/issues">Issues</a>
   </footer>
+
+  <script src="assets/lang.js"></script>
 </body>
 </html>
