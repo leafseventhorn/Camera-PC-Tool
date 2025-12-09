@@ -10,16 +10,37 @@ body {
 a { color: #7dd3fc; text-decoration: none; }
 
 .hero {
-  padding: 64px 24px;
+ padding: 64px 24px;
   background: linear-gradient(135deg, #2563eb, #06b6d4);
+  display: flex;          /* 启用 flexbox */
+  flex-direction: column; /* 垂直排列 */
+  align-items: center;    /* 水平居中所有元素 */
+  text-align: center;     /* 文本居中 */
 }
-
+/* 大标题 */
+.hero h1 {
+    font-size: 3rem;       /* 可根据需求调整大小 */
+    font-weight: 700;
+    margin: 0;
+}
+/* 副标题 */
+.hero p.hero-sub {
+    font-size: 1.2rem;
+    opacity: 0.85;
+    margin-top: 12px;
+}
 .top-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
+/* 按钮 */
+.hero-actions {
+    margin-top: 24px;
+}
+.hero-actions .btn {
+    margin-right: 12px;
+}
 .lang-switch button {
   background: rgba(255,255,255,.15);
   border: none;
@@ -33,6 +54,8 @@ a { color: #7dd3fc; text-decoration: none; }
 .hero-sub {
   margin: 24px 0;
   font-size: 20px;
+    opacity: 0.85;
+    margin-top: 12px;
 }
 
 .hero-actions .btn {

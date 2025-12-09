@@ -16,8 +16,12 @@ for **UVC webcams and PTZ cameras**, supporting **preview, image control, AI tra
 
 请前往 **GitHub Releases** 下载最新版 Windows 安装包：  
 Please download the latest Windows installer from **GitHub Releases**:
+🌐 官方下载页：https://leafseventhorn.github.io/Camera-PC-Tool/
+
 
 👉 **https://github.com/leafseventhorn/Camera-PC-Tool/releases**
+
+
 👉 **https://gitee.com/leafseventhorn/Camera-PC-Tool/releases**
 
 > ✅ 支持 Windows 10 / Windows 11  
