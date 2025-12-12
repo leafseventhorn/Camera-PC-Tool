@@ -24,7 +24,7 @@ Please download the latest Windows installer from **GitHub Releases**:
 
 👉 **https://gitee.com/leafseventhorn/Camera-PC-Tool/releases**
 
-> ✅ 支持 Windows 10 / Windows 11  
+> ✅ 支持 Windows 10 / Windows 11  & MacOS
 > ✅ 提供安装版（Installer）与版本更新说明
 
 ---
