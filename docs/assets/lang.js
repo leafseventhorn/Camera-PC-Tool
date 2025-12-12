@@ -20,7 +20,7 @@ const i18n = {
   },
   en: {
     subtitle: "Windows UVC Camera Software · PTZ · RTMP · Firmware Update",
-    download: "Download for Windows",
+    download: "Enter the download page",
     intro_title: "Introduction",
     intro_1: "Tenveo Camera Controller is a professional Windows camera management tool for Tenveo and standard UVC webcams.",
     intro_2: "It integrates preview, PTZ control, image tuning, AI tracking, RTMP streaming, and OTA firmware updates.",
